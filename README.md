@@ -15,25 +15,27 @@ risks aligned with ISO/IEC 27001 risk management principles.
 
 ## How to run
 
+```bash
 git clone https://github.com/afham-abqary/grc-risk-register
 cd grc-risk-register
 python risk_register.py
+```
 
 ## Risk scoring matrix
 
-| Score | Level    |
-| 1-4   | Low      |
-| 5-9   | Medium   |
-| 10-15 | High     |
-| 16-25 | Critical |
+| Score | Level    | 
+| 1-4   | Low      | 
+| 5-9   | Medium   | 
+| 10-15 | High     | 
+| 16-25 | Critical | 
 
 ## Example entry
 
-Risk ID     : RISK-001
-Name        : Unauthorised Access to Admin Panel
-Likelihood  : 3 - Possible
-Impact      : 4 - Major
-Risk Score  : 12
-Risk Level  : High
-Treatment   : Mitigate
-Status      : In Progress
+Risk ID     : RISK-001 
+Name        : Unauthorised Access to Admin Panel 
+Likelihood  : 3 - Possible 
+Impact      : 4 - Major 
+Risk Score  : 12 
+Risk Level  : High 
+Treatment   : Mitigate 
+Status      : In Progress 
